@@ -1,0 +1,7 @@
+name: Success Workflow
+on: [pull_request]
+jobs:
+  pass:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0   # exit 0 : means success, exit 1 : means failure
